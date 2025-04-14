@@ -1,0 +1,94 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250413221204
+Username: IANPC\IanS2
+RunAs User: IANPC\IanS2
+Configuration Name: 
+Machine: IANPC (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "e:\cursor\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 15516
+PSVersion: 5.1.19041.5737
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5737
+BuildVersion: 10.0.19041.5737
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is Hwork3Part1
+]633;D;0]633;A]633;P;Cwd=D:\x5cDocuments\x5cSCSU Classes\x5cSpring 2025\x5cCSCI 514\x5cassignment-1-getting-started-IanSpencer22\x5chomework-3-mongo-IanSpencer22PS D:\Documents\SCSU Classes\Spring 2025\CSCI 514\assignment-1-getting-started-IanSpencer22\homework-3-mongo-IanSpencer22> ]633;B
+PS>mongosh
+Current Mongosh Log ID: 67fc7d09195b2dfbe4b5f898
+Connecting to:          mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.5.0
+Using MongoDB:          8.0.6
+Using Mongosh:          2.5.0
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+------
+   The server generated these startup warnings when booting
+   2025-04-13T21:32:23.747-05:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+------
+
+test> load("mongodb_script.js")
+All documents in 'towns' collection:
+{
+  _id: ObjectId('67fc7d18195b2dfbe4b5f899'),
+  name: 'New York',
+  population: 8537673,
+  state: 'New York'
+}
+{
+  _id: ObjectId('67fc7d18195b2dfbe4b5f89a'),
+  name: 'Los Angeles',
+  population: 3976322,
+  state: 'California'
+}
+{
+  _id: ObjectId('67fc7d18195b2dfbe4b5f89b'),
+  name: 'Chicago',
+  population: 2704958,
+  state: 'Illinois'
+}
+{
+  _id: ObjectId('67fc7d18195b2dfbe4b5f89c'),
+  name: 'Minneapolis–St. Paul',
+  population: 4085415,
+  state: 'Minnesota'
+}
+Updated document for 'New York':
+{
+  _id: ObjectId('67fc7d18195b2dfbe4b5f899'),
+  name: 'New York',
+  population: 8550405,
+  state: 'New York'
+}
+Remaining documents in 'towns' collection after deletion:
+{
+  _id: ObjectId('67fc7d18195b2dfbe4b5f899'),
+  name: 'New York',
+  population: 8550405,
+}
+{
+  _id: ObjectId('67fc7d18195b2dfbe4b5f89a'),
+  name: 'Los Angeles',
+  population: 3976322,
+  state: 'California'
+}
+{
+  _id: ObjectId('67fc7d18195b2dfbe4b5f89c'),
+  name: 'Minneapolis–St. Paul',
+  population: 4085415,
+  state: 'Minnesota'
+}
+true
+test>
+(To exit, press Ctrl+C again or Ctrl+D or type .exit)
+test>
+]633;D;0]633;A]633;P;Cwd=D:\x5cDocuments\x5cSCSU Classes\x5cSpring 2025\x5cCSCI 514\x5cassignment-1-getting-started-IanSpencer22\x5chomework-3-mongo-IanSpencer22PS D:\Documents\SCSU Classes\Spring 2025\CSCI 514\assignment-1-getting-started-IanSpencer22\homework-3-mongo-IanSpencer22> ]633;B
+PS>Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250413221229
+**********************
